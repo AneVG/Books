@@ -1,15 +1,1 @@
-
-{  
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "body": "^5.1.0",
-    "express": "^4.18.3",
-    "parser": "^0.1.4"
-  },
-  "devDependencies": {
-    "chai-http": "^4.4.0",
-    "mocha": "^10.3.0"
-  }
-}
+{"scripts":{"start":"node server.js","test-api":"npx mocha api.test.js"},"dependencies":{"body":"^5.1.0","chai":"^4.2.0","express":"^4.18.3","parser":"^0.1.4"},"devDependencies":{"chai-http":"^4.4.0","mocha":"^10.3.0"}}
